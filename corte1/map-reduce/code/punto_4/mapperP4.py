@@ -14,4 +14,4 @@ for line in input:
         town = line.split(",")[6]
 
         if year == "2015" and town == "STAMFORD":
-                print(town, "\t", '%010d'%int(price))
+                print(town, "\t", '%10d'%int(price))
